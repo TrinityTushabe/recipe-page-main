@@ -1,0 +1,136 @@
+/* Primary Colors */
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+}
+
+/* Neutral Colors */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: var(--eggshell);
+  color: var(--dark-charcoal);
+  /* Use the Dark Charcoal color for text */
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  color: var(--nutmeg);
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--wenge-brown);
+}
+
+.maroon-background {
+  background-color: var(--rose-white);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.maroon-background h2 {
+  color: var(--dark-raspberry);
+  /* Set text color to white for better readability on maroon background */
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #666;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.image-container img {
+  width: 100%;
+  /* Make the image fill its container */
+  border-radius: 8px;
+  /* Match the card's border-radius */
+}
+
+.line-divider {
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  /* Set auto margin to center horizontally */
+  width: 45%;
+  display: block;
+  /* Ensures it behaves like a block-level element */
+}
+
+.brown-text {
+  color: maroon;
+  /* or any brown color you prefer */
+}
+
+li p strong {
+  font-weight: bold;
+}
+
+/* Style the numbers in the ol element */
+ol li {
+  color: maroon;
+  font-weight: bold;
+}
+
+ol li p {
+  color: #333;
+  font-weight: 100;
+}
